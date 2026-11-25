@@ -10,6 +10,10 @@ RAP reduces the angular dimension with a Gaussian random projection and then
 renormalizes the projected direction. The hyperbolic radius of every point is
 kept unchanged.
 
+![Figure 1: Overview of hyperbolic random projection methods](figure-1.png)
+
+**Figure 1.** Comparison of (a) tangent-space projection, (b) fully hyperbolic projection, and (c) the proposed radial-angular projection (RAP). RAP preserves the hyperbolic radius exactly while projecting and renormalizing only the angular direction.
+
 ## Quick start
 
 ```bash
